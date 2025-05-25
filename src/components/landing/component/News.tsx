@@ -36,7 +36,7 @@ export function News() {
               <ArrowRight className="size-8" />
             </div>
           </div>
-          <div className="no-scrollbar top-[-4rem] right-[-10rem] flex gap-5 overflow-scroll md:absolute md:max-w-[80%]">
+          <div className="no-scrollbar top-[-4rem] right-[-10rem] flex gap-5 overflow-scroll md:absolute md:max-w-[80%] md:pr-40">
             {newsItems.map((item, index) => (
               <div key={index} className="min-w-[230px] lg:min-w-[380px]">
                 <Image
