@@ -114,7 +114,7 @@ export function Tabs() {
       <div className="mb-10">
         <div
           role="tablist"
-          className="mb-6 flex gap-x-8 overflow-x-scroll overflow-y-hidden border-b border-gray-300 pb-2 xl:mb-14 xl:gap-x-14"
+          className="mb-6 flex gap-x-8 overflow-y-hidden border-b border-gray-300 pb-2 xl:mb-14 xl:gap-x-14"
           aria-label="Anker proizvodi"
         >
           {tabContent.map((tab) => (

@@ -9,7 +9,9 @@ function FooterLinks(props: { links: { href: string; label: string }[] }) {
           key={index}
           className={`${index < props.links.length - 1 ? "xl:border-anker xl:border-r xl:pr-4" : ""} ${index === 0 ? "xl:pl-0" : ""}`}
         >
-          <a href={link.href}>{link.label}</a>
+          <a className="hover:underline" href={link.href}>
+            {link.label}
+          </a>
         </li>
       ))}
     </ul>

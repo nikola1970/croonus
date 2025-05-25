@@ -18,7 +18,7 @@ export function Button<T extends ElementType = "button">({
   href,
   ...rest
 }: ButtonProps<T>) {
-  const buttonStyles = `bg-anker px-10 py-2 text-white text-sm inline-flex items-center justify-center ${className}`;
+  const buttonStyles = `bg-anker px-10 py-2 text-white text-sm inline-flex items-center justify-center cursor-pointer hover:brightness-[110%] transition-all ${className}`;
 
   if (href && !as) {
     return (

@@ -85,7 +85,9 @@ const NavLinks = ({ links, separated, className = "" }: NavLinksProps) => (
   >
     {links.map((link) => (
       <li key={link.name}>
-        <a href={link.href}>{link.name}</a>
+        <a className="hover:underline" href={link.href}>
+          {link.name}
+        </a>
       </li>
     ))}
   </ul>
@@ -104,7 +106,10 @@ const MainNavLinks = ({ links, showMobile }: MainNavLinksProps) => (
         key={link.name}
         className={link.isActive ? "text-anker relative" : "relative"}
       >
-        <a className="inline-block pb-2 lg:pb-0" href={link.href}>
+        <a
+          className="inline-block pb-2 hover:underline lg:pb-0"
+          href={link.href}
+        >
           {link.name}
         </a>
         {link.isActive && (
