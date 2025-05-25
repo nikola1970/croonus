@@ -10,7 +10,7 @@ export function Hero() {
             <p className="mb-2 text-sm text-orange-400">
               Akcija traje to 15.6.2025.
             </p>
-            <h1 className="mb-3 text-xl font-bold">
+            <h1 className="mb-3 text-3xl font-bold lg:text-4xl">
               Best chargers for
               <br /> Mother's Day
             </h1>
